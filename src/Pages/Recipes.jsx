@@ -52,7 +52,7 @@ const Recipes = () => {
             <Loading />
         )
     }
-    console.log(recipes)
+    
     return (
         <div className='w-full'>
             <div className='w-full flex items-center justify-center pt-10 pb-5 px-0 md:px-10'>
@@ -72,8 +72,8 @@ const Recipes = () => {
                     <>
                         <div className='w-full  flex flex-wrap gap-10 px-0 lg:px-10 py-10'>
                             {
-                                recipes?.map((data, meals) => (
-                                    <RecipeCard  recipe={data} key={meals.idMeal} />))
+                                recipes?.map((data) => (
+                                    <RecipeCard  key={data} recipe={data}  />))
                             }
                         </div>
 
