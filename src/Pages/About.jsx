@@ -1,12 +1,11 @@
 import React from 'react';
+import Navbar from './Navbar';
 
 const About = () => {
     return (
         <div className=''>
             <div>
-                <nav className='w-full fixed z-10 bg-black opacity-90 py-3 md:py-4 px-md:px-20'>
-                    <h1 className='flex justify-center items-center text-3xl text-white '>About Us</h1>
-                </nav>
+                <Navbar />
             </div>
             <div>
                 <img className='w-full h-[650px] object-cover' src='https://images.unsplash.com/photo-1565958011703-44f9829ba187?q=80&w=1365&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'

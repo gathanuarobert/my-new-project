@@ -8,7 +8,7 @@ import Button from './Button';
 
 const Recipes = () => {
     const [recipes, setRecipes] = useState([]);
-    const [query, setQuery] = useState('Vegan');
+    const [query, setQuery] = useState('');
     const [limit, setLimit] = useState(30);
     const [loading, setLaoding] = useState(false);
 
@@ -35,10 +35,7 @@ const Recipes = () => {
         fetchRecipe();
     };
 
-    const showMore = () => {
-        setLimit(prev => prev + 10);
-        fetchRecipe();
-    };
+    
 
     useEffect(() => {
         setLaoding(true);
@@ -77,14 +74,7 @@ const Recipes = () => {
                             }
                         </div>
 
-                        <div className='flex w-full items-center justify-center py-10'>
-
-                            <Button
-                                title="Show More"
-                                containerStyle="bg-green-800 text-white px-3 py-1 rounded-full text-sm"
-                                handleClick={showMore}
-                            />
-                        </div>
+                       
                     </>
                 ) : <div className='text-white w-full items-center justify-center py-10'>
                     <p className='text-center'>No Recipe Found</p>
