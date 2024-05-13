@@ -16,6 +16,12 @@ Created by Robert Gathanua.
 - **TAILWIND CSS**: Styled the site to make it visually appealing and user-friendly, enhancing the overall user experience.
 - **REACT JS**: Implemented interactive features such as search functionality and recipe details, making the site dynamic and engaging.
 
+  ## Contributors
+  - ** Robert Gathanua
+  - ** Joseph Wanini
+  - ** Dennis Githaiga
+  - ** Victor Maina
+
 ## How to Use with React
 
 1. Clone this repository to your local machine.
