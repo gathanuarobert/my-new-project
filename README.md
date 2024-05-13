@@ -27,3 +27,4 @@ Created by Robert Gathanua.
 
 ## License
 This project is licensed under the [MIT License](LICENSE), allowing you to use, modify, and distribute the code freely. Cheers to happy mixing!
+LICENSE
