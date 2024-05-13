@@ -17,10 +17,10 @@ Created by Robert Gathanua.
 - **REACT JS**: Implemented interactive features such as search functionality and recipe details, making the site dynamic and engaging.
 
   ## Contributors
-  - **Robert Gathanua
-  - **Joseph Wanini
-  - **Dennis Githaiga
-  - **Victor Maina
+  - **Robert Gathanua**
+  - **Joseph Wanini**
+  - **Dennis Githaiga**
+  - **Victor Maina**
 
 ## How to Use with React
 
